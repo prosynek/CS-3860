@@ -1,0 +1,26 @@
+[
+	{
+		"category_id" : 0,
+		"name" : "Action & Adventure"
+	},
+	{
+		"category_id" : 1,
+		"name" : "Comedy"
+	},
+	{
+		"category_id" : 2,
+		"name" : "Drama"
+	},
+	{
+		"category_id" : 3,
+		"name" : "Horror"
+	},
+	{
+		"category_id" : 4,
+		"name" : "Science Fiction"
+	},
+	{
+		"category_id" : 5,
+		"name" : "Suspense"
+	}
+]

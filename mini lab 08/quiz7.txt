@@ -1,0 +1,44 @@
+2. Provide a Map Reduce solution to the question listed at the end of this problem by specifying code for both a Map(Key k, Value v) 
+method and a Reduce(Key k, Values v) method. You can use Java, Python, and/or Pseudo Code.
+
+Given a Map Reduce Framework that executes the following PesudoCode in a “main” method:
+
+for(tweet in tweets){ // where tweets is the data
+
+      Map(tweet.Author, tweet.Text)
+
+// Map should emit intermediate results with a call to emit_intermediate(key, value)
+
+// These end up in an “intermediate” object
+
+}
+
+for (key in intermediate) {
+
+// intermediate[key] is all the values associated with that key produced by the mapper
+
+      Reduce(key, intermediate[key])
+
+// Reduce emits to a “result” object with a call to emit(key, value)
+
+}
+
+Print (results)
+
+// prints something like (“@magana”, 11), (“@somestudent”, 9), …
+
+ 
+
+-> Write code for Map and Reduce methods that counts the number of times an Author tweets something about “MSOE” (uses the exact word “MSOE” in a tweet at least once). 
+If an Author never tweets about MSOE, they should not be included in the results.  
+
+def map(key, value):
+    # check if value (tweet) contains 'MSOE'
+    if (value != None) and ('MSOE' in value):
+        emit_intermediate(key, value)
+
+reduce(key, value):
+    total_sum = 0
+    for v in value:
+        total_sum += v
+    emit(key, total_sum)

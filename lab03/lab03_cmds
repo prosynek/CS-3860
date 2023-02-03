@@ -1,0 +1,52 @@
+
+CREATE TABLE video_actors (
+id int,
+name varchar(100),
+recording_id int)
+CHARACTER SET latin1;
+
+CREATE TABLE video_categories (
+id int,
+name varchar(100)
+);
+
+CREATE TABLE video_recordings (
+recording_id int,
+director varchar(100),
+title varchar(200),
+category varchar(100),
+image_name varchar(100),
+duration float,
+rating varchar(10),
+year_released int,
+price float,
+stock_count float
+);
+
+# set global so you can read local files
+SET GLOBAL local_infile=1;
+
+Load Data local Infile 'C:/Users/rosynekp/OneDrive - Milwaukee School of Engineering/Desktop/cs 3860/labs/lab03/videodb2022/Video_Categories.txt'
+into table video_og.video_categories fields terminated by '\t'
+lines terminated by '\r\n';
+
+Load Data local Infile 'C:/Users/rosynekp/OneDrive - Milwaukee School of Engineering/Desktop/cs 3860/labs/lab03/videodb2022/Video_Recordings.txt'
+into table video_og.video_recordings fields terminated by '\t'
+lines terminated by '\r\n';
+
+Load Data local Infile 'C:/Users/rosynekp/OneDrive - Milwaukee School of Engineering/Desktop/cs 3860/labs/lab03/videodb2022/Video_Actors.txt'
+into table video_og.video_actors 
+CHARACTER SET latin1
+fields terminated by '\t'
+lines terminated by '\r\n';
+
+# remove double quotes
+update video_categories set name = replace(trim(name),'"','');
+update video_actors set name = replace(trim(name),'"','');
+update video_recordings set director = replace(trim(director),'"','');
+update video_recordings set title = replace(trim(title),'"','');
+update video_recordings set category = replace(trim(category),'"','');
+update video_recordings set image_name = replace(trim(image_name),'"','');
+update video_recordings set rating = replace(trim(rating),'"','');
+
+

@@ -1,0 +1,56 @@
+film_id,title,image_name,rating,year_released,price,stock_count,duration,category_id,director_id
+3000,"Apocalypse Now",apocalypse_now.gif,R,1979,22.99,0,9180,0,1
+3001,"Bad Boys",badboys.gif,R,1995,15.99,782,7140,0,2
+3002,Braveheart,braveheart.gif,R,1995,14.99,582,10620,0,3
+3003,"Deep Impact",deep_impact.gif,PG-13,1998,11.99,501,5700,0,4
+3004,"Disco Godfather",disco_godfather.gif,R,1993,10.99,872,5580,0,5
+3005,"Full Metal Jacket",full_metal_jacket.gif,R,1987,16.99,872,7020,0,6
+3006,"Independence Day",independence_day.gif,PG-13,1996,16.99,0,8700,0,7
+3007,"The Hunt for Red October",hunt_for_red_october.gif,PG,1990,10.99,618,8100,0,8
+3008,"The Rock",the_rock.gif,R,1996,20.99,514,8160,0,2
+3009,"Top Gun",top_gun.gif,PG,1986,11.99,499,6600,0,9
+3010,"Austin Powers",austin_powers.gif,PG-13,1997,17.99,688,5220,1,10
+3011,Caddyshack,caddyshack.gif,R,1980,18.99,938,5880,1,11
+3012,"Car Wash",car_wash.gif,PG,1976,24.99,0,5820,1,12
+3013,Crooklyn,crooklyn.gif,PG-13,1994,9.99,651,6840,1,13
+3014,Dolemite,dolemite.gif,R,1975,19.99,489,5460,1,14
+3015,"Dumb and Dumber",dumb_and_dumber.gif,PG-13,1994,23.99,973,6600,1,15
+3016,"Monty Python and The Holy Grail",monty_python_holy_grail.gif,PG,1975,17.99,980,5400,1,16
+3017,"Mrs. Doubtfire",mrs_doubtfire.gif,PG-13,1993,21.99,772,7500,1,17
+3018,"The Blues Brothers",blues_brothers.gif,R,1980,14.99,0,9180,1,18
+3019,"The Nutty Professor",nutty_professor.gif,PG-13,1996,19.99,925,5700,1,19
+3020,"Falcon and the Snowman",falcon_snowman.jpg,R,1985,10.99,995,7860,2,20
+3021,"Forrest Gump",forrest_gump.gif,PG-13,1994,10.99,496,9420,2,21
+3022,Ghost,ghost.gif,PG-13,1990,12.99,828,7620,2,22
+3023,"Gone With The Wind",gone_with_the_wind.gif,NR,1939,23.99,915,13320,2,23
+3024,"Good Will Hunting",good_will_hunting.gif,R,1997,14.99,0,7560,2,24
+3025,"Poetic Justice",poetic_justice.gif,R,1993,20.99,523,6540,2,25
+3026,Rudy,rudy.gif,PG,1993,15.99,658,6840,2,26
+3027,"Shawshank Redemption",shawshank_redemption.gif,R,1994,20.99,529,8520,2,27
+3028,"Soul Food",soul_food.gif,R,1997,11.99,687,6840,2,28
+3029,Titanic,titanic.gif,PG-13,1997,22.99,917,11640,2,29
+3030,Candyman,candyman.gif,R,1992,15.99,0,5880,3,30
+3031,Carrie,carrie.gif,R,1976,15.99,855,5880,3,31
+3032,"Friday the 13th Pt 1",friday_13th_part1.gif,NR,1980,24.99,903,5760,3,32
+3033,Misery,misery.gif,R,1990,22.99,612,6420,3,33
+3034,"Pet Sematary",pet_sematary.gif,R,1989,13.99,887,6180,3,34
+3035,Poltergeist,poltergeist.gif,R,1982,20.99,821,6900,3,35
+3036,Psycho,psycho.gif,R,1960,15.99,0,6540,3,36
+3037,Scream,scream.gif,R,1996,22.99,692,6660,3,37
+3038,Alien,alien.gif,R,1979,19.99,800,6960,4,38
+3039,"Clockwork Orange",clockwork_orange.gif,R,1971,13.99,400,8220,4,6
+3040,Contact,contact.gif,PG,1997,10.99,547,9000,4,21
+3041,Dune,dune.gif,PG-13,1984,10.99,962,8220,4,39
+3042,Excalibur,excalibur.gif,PG,1981,15.99,0,8400,4,40
+3043,"Jurassic Park",jurassic_park.gif,PG-13,1993,20.99,806,7620,4,41
+3044,"Star Trek: First Contact",star_trek_first_contact.gif,PG-13,1996,11.99,593,6660,4,42
+3045,"Star Wars",star_wars.gif,PG,1977,13.99,720,7260,4,43
+3046,Tron,tron.gif,PG,1982,12.99,653,5700,4,44
+3047,Diabolique,diabolique.gif,R,1996,15.99,421,6480,5,45
+3048,Disclosure,disclosure.gif,R,1994,23.99,0,7740,5,46
+3049,Malice,malice.gif,R,1993,23.99,752,6360,5,47
+3050,Seven,seven.gif,R,1995,14.99,421,7620,5,48
+3051,"The Firm",the_firm.gif,R,1993,17.99,655,9240,5,49
+3052,"The Game",the_game.gif,R,1997,21.99,581,6900,5,48
+3053,"The Silence of the Lambs",silence_of_the_lambs.gif,R,1991,22.99,817,7080,5,50
+3054,"The Usual Suspects",usual_suspects.gif,R,1995,23.99,0,6360,5,51
